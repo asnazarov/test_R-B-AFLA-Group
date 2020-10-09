@@ -1,0 +1,12 @@
+@import './UI/button.css';
+@import './cardContainer.css';
+@import './card.css';
+@import './licenseNumber.css';
+@import './handlers.css';
+.root {
+    border: 10px solid #EBEBEB;
+    margin: 0 auto;
+    width: 510px;
+    box-sizing: border-box;
+    padding: 15px;
+}

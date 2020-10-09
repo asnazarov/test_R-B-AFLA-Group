@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>text_R&B AFLA Group</title>
+</head>
+
+<body>
+    <div class="root">
+        <form class="formLicenses">
+            <fieldset class="cardContainer">
+                <div class="card">
+                    <input class="card__radioBtn" type="radio" name="license">
+                    <p class="card__text">Lisense Plan #1</p>
+                    <p class="card__price">$13 per license</p>
+                </div>
+                <div class="card">
+                    <input class="card__radioBtn" type="radio" name="license">
+                    <p class="card__text">Lisense Plan #1</p>
+                    <p class="card__price">$13 per license</p>
+                </div>
+                <div class="card">
+                    <input class="card__radioBtn" type="radio" name="license">
+                    <p class="card__text">Lisense Plan #1</p>
+                    <p class="card__price">$13 per license</p>
+                </div>
+            </fieldset>
+            <fieldset class="licensesNumber">
+                <label class="licensesNumber__label" for="licensesNumber">Number of licenses: </label>
+                <select class="licensesNumber__list" name="licensesNumber" id="">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5" selected="selected">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+
+            </fieldset>
+            <fieldset class="handlers">
+                <p class="handlers__result">total:
+                    <span class="handlers__result handlers__result_number">$ 0</span>
+                    <span class="handlers__result handlers__result_currency">us</span>
+                </p>
+                <input class="button" type="submit" value="Buy now">
+                <p class="handlers__licensePlan">Сhoose a plan</p>
+            </fieldset>
+        </form>
+        <template id="templateCard">
+            <div class="card">
+               <input class="card__radioBtn" type="radio" name="license">
+                <p class="card__text">Lisense Plan #1</p>
+                <p class="card__price">$13 per license</p>
+            </div>
+        </template>
+    </div>
+    <script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
