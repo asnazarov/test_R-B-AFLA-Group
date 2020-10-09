@@ -1,10 +1,16 @@
 .button {
     color: #fff;
     border: none;
+    cursor: pointer;
     border-radius: 30px;
     padding: 10px 53px;
     font-family: 'Bebas Neue';
     font-size: 14px;
     background-color: #33A845;
     letter-spacing: 3px;
+}
+
+.button:active,
+.button:focus {
+    outline: none;
 }
