@@ -1,5 +1,6 @@
 @import '../vendor/fonts.css';
 @import './UI/button.css';
+@import './UI/check.css';
 @import './cardContainer.css';
 @import './card.css';
 @import './licenseNumber.css';

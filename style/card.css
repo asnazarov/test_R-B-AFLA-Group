@@ -1,7 +1,5 @@
 .card {
-    /* border: 1px solid green; */
     display: flex;
-    padding: 16px;
     align-items: center;
     cursor: pointer;
 }
@@ -9,10 +7,6 @@
 .active {
     background-color: #e2f5fc;
     color: red;
-}
-
-.card__radioBtn {
-    margin: 0 0 0 15px;
 }
 
 .card__text {
